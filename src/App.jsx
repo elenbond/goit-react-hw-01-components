@@ -8,7 +8,6 @@ import friends from './data/friends.json';
 import transactions from './data/transactions.json';
 
 export function App() {
-  const title = true;
   return (
     <div
       // style={{
@@ -30,7 +29,7 @@ export function App() {
         likes={user.stats.likes}
       />
       
-      <Statistics title={title ? "Upload stats" : title} stats={data} />
+      <Statistics stats={data} />
       
       <FriendList friends={friends} />
       
