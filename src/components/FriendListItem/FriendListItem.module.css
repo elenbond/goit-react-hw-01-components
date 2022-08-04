@@ -33,3 +33,11 @@
 .name{
     font-weight: 600;
 }
+
+.true{
+    background-color: green;
+}
+
+.false{
+    background-color: red;
+}
